@@ -1,7 +1,2 @@
-require("basic")
-if vim.g.vscode then
-	local a = 3
-else
-	require("settings")
-	require("plugins")
-end
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
